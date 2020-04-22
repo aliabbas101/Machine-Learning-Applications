@@ -16,7 +16,7 @@ if __name__ == "__main__":
     cap = cv2.VideoCapture(0)
 
 
-    face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_alt.xml')
+    face_cascade = cv2.CascadeClassifier('haarcascade_fullbody.xml')
     eye_cascade = cv2.CascadeClassifier('haarcascade_eye.xml')
 
     while 1:
